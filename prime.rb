@@ -9,8 +9,10 @@ def prime?(number)
   
   i = 3
   while i <= (number - 1)
-  if number % i == 0 
-    return false 
-    
-  
+    i += 1
+    if number % i == 0 
+      return false
+    end
+  end
+  return true
 end
