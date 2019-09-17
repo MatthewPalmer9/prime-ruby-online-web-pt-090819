@@ -3,7 +3,7 @@ def prime?(number)
     return true 
   end 
 
-  if number < 2 || !(number % 2)
+  if number < 2 || (number % 2)
     return false 
   end
   
