@@ -1,5 +1,4 @@
 def prime?(number)
-  i = 3
   if number == 2 
     return true 
   end 
@@ -8,6 +7,8 @@ def prime?(number)
     return false 
   end
   
+  i = 3
+  while i < 
   if number % i == 0 
     return false 
     
