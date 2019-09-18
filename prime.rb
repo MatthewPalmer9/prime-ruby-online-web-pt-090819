@@ -4,6 +4,7 @@ def prime?(number)
   end 
   
   if number > 2 
-    range = rand(2..(number-1)).to_a 
+    numberArray = (2..number-1)
+    numberArray.any?() { |num|
     
 end
