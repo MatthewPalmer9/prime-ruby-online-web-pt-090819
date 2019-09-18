@@ -7,5 +7,5 @@ def prime?(number)
     numberArray = (2..number-1)
     numberArray.any?() { |num| number % num }
   end
-  return true
+  return false
 end
