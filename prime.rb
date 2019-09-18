@@ -3,7 +3,7 @@ def prime?(number)
     return true 
   end 
   
-  if number 
+  if number > 1
     numberArray = (2..number-1)
     numberArray.none?() { |num| number % num }
   else
